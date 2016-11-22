@@ -81,7 +81,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gnc-lN-q6J">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gnc-lN-q6J">
                                 <rect key="frame" x="0.0" y="0.0" width="259" height="337"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -100,9 +100,11 @@
                             <constraint firstItem="HoV-bv-6DK" firstAttribute="top" secondItem="wAl-X3-LHa" secondAttribute="bottom" id="2Rh-Nl-Y0t"/>
                             <constraint firstAttribute="trailing" secondItem="wAl-X3-LHa" secondAttribute="trailing" id="6Ph-BB-oKO"/>
                             <constraint firstItem="wAl-X3-LHa" firstAttribute="height" secondItem="6Os-wp-8iV" secondAttribute="height" multiplier="1/2" id="7am-vw-ui8"/>
+                            <constraint firstItem="Gnc-lN-q6J" firstAttribute="height" secondItem="6Os-wp-8iV" secondAttribute="height" id="PhB-E4-RVO"/>
                             <constraint firstItem="wAl-X3-LHa" firstAttribute="leading" secondItem="6Os-wp-8iV" secondAttribute="leading" id="jY6-iA-sN6"/>
                             <constraint firstItem="wAl-X3-LHa" firstAttribute="width" secondItem="6Os-wp-8iV" secondAttribute="width" id="rir-uw-I3i"/>
                             <constraint firstItem="Gnc-lN-q6J" firstAttribute="leading" secondItem="6Os-wp-8iV" secondAttribute="leading" id="t4U-x3-qUs"/>
+                            <constraint firstItem="Gnc-lN-q6J" firstAttribute="width" secondItem="6Os-wp-8iV" secondAttribute="width" id="xFu-NH-2nC"/>
                             <constraint firstItem="Gnc-lN-q6J" firstAttribute="top" secondItem="6Os-wp-8iV" secondAttribute="top" id="zaa-a8-beh"/>
                         </constraints>
                     </view>
