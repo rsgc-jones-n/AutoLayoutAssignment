@@ -68,26 +68,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="xro-UO-OEb">
-                                <rect key="frame" x="25" y="10" width="325" height="647"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="xro-UO-OEb">
+                                <rect key="frame" x="25" y="10" width="335" height="637"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CutePhoto" translatesAutoresizingMaskIntoConstraints="NO" id="pxO-lz-RMI">
-                                        <rect key="frame" x="0.0" y="0.0" width="325" height="587"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="578"/>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="5UR-9a-MSk">
-                                        <rect key="frame" x="0.0" y="587" width="325" height="60"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="5UR-9a-MSk">
+                                        <rect key="frame" x="0.0" y="578" width="335" height="59"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bR-Ue-F5R">
-                                                <rect key="frame" x="0.0" y="0.0" width="46" height="60"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="59" height="59"/>
+                                                <state key="normal" title="Previous"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeS-rn-AXE">
-                                                <rect key="frame" x="139.5" y="0.0" width="46" height="60"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="154.5" y="0.0" width="40" height="59"/>
+                                                <state key="normal" title="Share"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCD-4e-LWW">
-                                                <rect key="frame" x="279" y="0.0" width="46" height="60"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="303" y="0.0" width="32" height="59"/>
+                                                <state key="normal" title="Next"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -96,10 +96,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="xro-UO-OEb" secondAttribute="trailing" constant="25" id="F0m-5o-6qf"/>
-                            <constraint firstItem="xro-UO-OEb" firstAttribute="top" secondItem="8j5-cZ-qgP" secondAttribute="top" constant="10" id="WhV-pn-Ocf"/>
+                            <constraint firstAttribute="trailing" secondItem="xro-UO-OEb" secondAttribute="trailing" constant="20" id="27A-Qx-h0d"/>
+                            <constraint firstItem="xro-UO-OEb" firstAttribute="top" secondItem="8j5-cZ-qgP" secondAttribute="top" constant="20" id="hmw-W6-2dV"/>
                             <constraint firstItem="sr4-rZ-gId" firstAttribute="top" secondItem="xro-UO-OEb" secondAttribute="bottom" constant="10" id="le1-Q1-iVn"/>
-                            <constraint firstItem="xro-UO-OEb" firstAttribute="leading" secondItem="8j5-cZ-qgP" secondAttribute="leading" constant="25" id="oa1-tx-L91"/>
+                            <constraint firstItem="xro-UO-OEb" firstAttribute="leading" secondItem="8j5-cZ-qgP" secondAttribute="leading" constant="20" id="pfj-y2-POj"/>
                         </constraints>
                     </view>
                 </viewController>
