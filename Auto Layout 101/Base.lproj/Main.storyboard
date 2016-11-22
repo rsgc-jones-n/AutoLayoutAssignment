@@ -90,13 +90,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wAl-X3-LHa">
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wAl-X3-LHa">
                                 <rect key="frame" x="0.0" y="332" width="375" height="335"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.30683648275290998" green="0.30483585732554641" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HoV-bv-6DK" firstAttribute="top" secondItem="wAl-X3-LHa" secondAttribute="bottom" id="2Rh-Nl-Y0t"/>
+                            <constraint firstAttribute="trailing" secondItem="wAl-X3-LHa" secondAttribute="trailing" id="6Ph-BB-oKO"/>
+                            <constraint firstItem="wAl-X3-LHa" firstAttribute="leading" secondItem="6Os-wp-8iV" secondAttribute="leading" id="jY6-iA-sN6"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="on9-R6-lrr" userLabel="First Responder" sceneMemberID="firstResponder"/>
