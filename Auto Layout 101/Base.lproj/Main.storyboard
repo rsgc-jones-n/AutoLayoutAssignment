@@ -25,9 +25,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="259" height="337"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YpY-Hg-bY9">
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YpY-Hg-bY9">
                                 <rect key="frame" x="256" y="0.0" width="119" height="337"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wAl-X3-LHa">
@@ -41,6 +40,8 @@
                             <constraint firstAttribute="trailing" secondItem="wAl-X3-LHa" secondAttribute="trailing" id="6Ph-BB-oKO"/>
                             <constraint firstItem="wAl-X3-LHa" firstAttribute="height" secondItem="6Os-wp-8iV" secondAttribute="height" multiplier="1/2" id="7am-vw-ui8"/>
                             <constraint firstItem="Gnc-lN-q6J" firstAttribute="height" secondItem="6Os-wp-8iV" secondAttribute="height" id="PhB-E4-RVO"/>
+                            <constraint firstItem="YpY-Hg-bY9" firstAttribute="top" secondItem="6Os-wp-8iV" secondAttribute="top" id="TSh-7w-B2y"/>
+                            <constraint firstAttribute="trailing" secondItem="YpY-Hg-bY9" secondAttribute="trailing" id="bSk-bE-xeh"/>
                             <constraint firstItem="wAl-X3-LHa" firstAttribute="leading" secondItem="6Os-wp-8iV" secondAttribute="leading" id="jY6-iA-sN6"/>
                             <constraint firstItem="wAl-X3-LHa" firstAttribute="width" secondItem="6Os-wp-8iV" secondAttribute="width" id="rir-uw-I3i"/>
                             <constraint firstItem="Gnc-lN-q6J" firstAttribute="leading" secondItem="6Os-wp-8iV" secondAttribute="leading" id="t4U-x3-qUs"/>
